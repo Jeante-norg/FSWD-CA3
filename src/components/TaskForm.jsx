@@ -33,7 +33,9 @@ const TaskForm = () => {
         {/* TODO: Add Submit Button */}
         <br />
         <br />
-        <button type="submit">Submit</button>
+        <button type="submit" onClick={handleClick}>
+          Submit
+        </button>
         <br />
         <br />
         <button onClick={handleClick}>Home</button>
