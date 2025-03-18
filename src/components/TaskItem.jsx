@@ -7,8 +7,9 @@ const TaskItem = ({ title, priority, dueDate }) => {
       {/* <p>TaskList: {title}</p>
       <p>priority: {priority}</p>
       <p>due date: {dueDate}</p> */}
+
       <p>
-        {title} - {priority} - Due: {dueDate}
+        📌 {title} - {priority} - Due: {dueDate}
       </p>
     </li>
   );
